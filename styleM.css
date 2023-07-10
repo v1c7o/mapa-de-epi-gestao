@@ -1,0 +1,246 @@
+body {
+    font-family: Helvetica;
+    font-weight: 550;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    background-color:white;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.loginGG{
+    font-family: Helvetica;
+    font-weight:550 ;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    background-color: #247ba0;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.bodyTwo{
+    font-family: Helvetica;
+    font-weight: 550;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.links{
+    background-color: #006494;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center ;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 0 auto;
+
+}
+
+.cabecalho{
+    background-color: #fff ;
+    width: 0 auto;
+    margin: 0;
+
+}
+
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    justify-content:center ;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+a.active,
+a:hover {
+    background-color:#f2f2f2;
+    color: #13293D;
+}
+
+section{
+    background: url(#) no-repeat;
+    background-size: cover;
+}
+
+
+input[type="password"]{
+    width: 75%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+input[type="email"] {
+    width: 75%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+
+.loginG{
+    background-color: #ccc ;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 25%;
+    width: 30%;
+}
+
+button {
+    background-color: #000 ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    flex-direction: row;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+footer{
+    background-color: #13293D;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+}
+ul{
+    flex-direction: row;
+}
+a{
+  color:ivory;
+  text-decoration: none;
+  padding: 10px;
+  margin: 25px;
+}
+
+.limpa{
+    height: 67%;
+}
+table{
+    border-color:  0 #177bb4;
+    text-align: center;
+    border-top-color: 0 #177bb4;
+    border:  0#177bb4;
+    padding: 5px;
+    border-spacing: 0px;
+    font-size: 14px;
+}
+td{
+    background-color: #177bb4;
+    border: 1px solid;
+    padding: 5px;
+}
+tr{
+    border-color: #13293D;
+}
+td:hover{
+    color: white;
+    border-color: #13293D;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.senai{
+    width: 200px;
+    height: 100px;
+    padding: 0;
+    margin: 2px;
+   
+}
+div{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.blue{
+    border-style: none ;
+}
+.blues{
+    border-top:#177bb4;
+
+}
+.az{
+    border-bottom: none ;
+}

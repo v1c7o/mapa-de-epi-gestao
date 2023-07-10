@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    max-width: 100%;
+    background-color: grey;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.seco{
+    padding: 30px;
+    width: 50%;
+    background-color: rgb(217, 205, 226);
+    display: flex;
+  flex-wrap: wrap;
+}
+.seci{
+    background-color: black;
+    padding: 10px;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.secu{
+    width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+input{
+    height:30px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.s10{
+    height:30px;
+    width: 50px;
+}
+.s11{
+    height:30px;
+    width: 80px;
+}
+button{
+    margin-left: 25px;
+}
